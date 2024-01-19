@@ -1,0 +1,61 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 2rem;
+    
+}
+
+.block1 {
+    background-color: rgb(220, 243, 13);
+    max-width: 400px;
+    flex: 1;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 5px;
+}
+
+.plan {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 24px;
+    
+}
+
+.price {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.list3 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.sign-up {
+    border-radius: 5px;
+    border: none;
+    background-color: red;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+}
+
+@media (max-width: 1250px) {
+    .container {
+        flex-direction: column;
+        height: 100%;
+    }
+}
